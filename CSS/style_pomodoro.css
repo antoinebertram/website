@@ -2,7 +2,6 @@ html, body {
     height: 100%;
     overflow: hidden;
 }
-
 body{
     background-image: url(/Images/background2.jpg);
     background-size:cover;
