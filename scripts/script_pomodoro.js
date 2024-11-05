@@ -3,7 +3,7 @@ var remainingSeconds;
 var resetSeconds = seconds;
 var minutes;
 var intervalId;
-var audio = new Audio('/Audio/alarm.wav');
+var audio = new Audio('/audio/alarm.wav');
 
 function Pomodoro(){
     SetTimer(1500);
