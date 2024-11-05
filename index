@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Pomodoro timer</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="/css/style.css"/>
+    </head>
+    <body>
+    <div class="box">
+        <p>welcome to my website</p>
+    </div>
+    <div>
+        <a class="button" href="pages/Pomodoro_timer">pomodoro timer</a>
+    </div>
+    </body>
+</html>
