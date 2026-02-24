@@ -1,6 +1,123 @@
-*{
+/* Colour palette */
+:root {
+    --black: #000000;
+    --dust-grey: #DAD2D8;
+    --jet-black: #143642;
+    --dark-cyan: #0F8B8D;
+    --golden-orange: #FBA81F;
+    --mahogany-red: #A8201A;
+}
+
+* {
     padding: 0;
     margin: 0;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--dust-grey);
+    color: var(--black);
+    line-height: 1.6;
+}
+div {
+    padding: 0;
+    margin: 0;
+}
 
+/* Default font styles */
+h1,h2,h3{
+    color: var(--jet-black);
+    margin: 20px 0 15px 0;
+}
+h1 {
+    font-size: 2rem;
+}
+h2{
+    font-size: 1.5rem;
+}
+h3{
+    font-size: 1.25rem;
+}
+
+/* Default link styles */
+a {
+    text-decoration: none;
+    color: var(--jet-black);
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation bar */
+nav {
+    background-color: var(--golden-orange);
+    box-shadow: 0 2px 5px var(--jet-black);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+nav .home-link{
+    margin-right: auto;
+}
+nav ul li a{
+    display: flex;
+    font-size: 16px;
+    padding: 12px 18px;
+    transition: background-color 150ms ease;
+    font-weight: bolder;
+}
+nav ul li a:hover{
+    background-color: var(--mahogany-red);
+    color: var(--dust-grey);
+}
+
+main {
+    display: flex;
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+main .main-info{
+    padding: 1.5rem;
+    width: 50%;
+}
+main .profile-picture{
+    padding: 1.5rem;
+    width: 50%;
+    background-color: grey;
+
+}
+
+section{
+    margin: 1rem 0;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    border-left: 2px solid var(--jet-black);
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: var(--golden-orange);
+    text-align: center;
+    padding: 10px 10px 0;
+}
+footer .socials a i{
+    color: var(--jet-black);
+    margin: 2px;
+    font-size: 1.1rem;
+    text-align: center;
+}
+footer .socials a i:hover{
+    color: var(--dark-cyan);
+}
+footer p {
+    margin-right: 5px;
+    color: var(--jet-black);
+}
